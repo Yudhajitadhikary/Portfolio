@@ -13,10 +13,10 @@ export default function Works() {
         <div>
         <div className={styles.cardParent}>
             {constants.works.map((item,index)=>(
-            <div className='parentCardWrapper'>
+            <div key={index} className='parentCardWrapper'>
                 <div>
                     <div>
-                        <a href={item.url} target="_blank">
+                        <a className={styles.anchor} href={item.url} target="_blank" rel="noreferrer">
                             <div className={styles.flexWrapper}>
                         <div className='cardText'>
                         <h4 className={styles.nameStyle}>

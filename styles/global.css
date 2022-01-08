@@ -4,6 +4,18 @@
 .parentCardWrapper {
     margin-bottom: 100px;
 }
+.anchor{
+    color: #f0860c;
+    text-decoration: none;
+}
+.anchorLink:hover{
+    color: #f0860c;
+    text-decoration: none;
+}
+.anchor:hover{
+    color: #f0860c;
+    text-decoration: none;
+}
 .navbar-mobile{
     
     transform: translateX(0px) translateY(0px);
@@ -26,6 +38,7 @@
 .navbar-desktop {
     position: fixed;
     display: block;
+    top:0px;
     width: 100%;
     clear: none;
     -webkit-box-orient: vertical;
@@ -74,6 +87,16 @@
     font-weight: 600;
     letter-spacing: -.01em;
     text-transform: none;
+}
+.submitbutton {
+    background-color: rgba(27,27,27,.91);
+    min-height: 48px;
+    min-width: 118px;
+    margin-top: 10px;
+    border-radius: 12px;
+    color: #f0860c;
+    font-size: 18px;
+    font-weight: 500;
 }
 .cardWrapper{
     opacity: 1;

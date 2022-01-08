@@ -5,6 +5,7 @@ export default {
     nameDiv:'mb-10',
     nameDivTitle:'mb-20',
     nameStyleSub:'mb-10 high',
-    contentsubWrapper:'mb-14 less'
+    contentsubWrapper:'mb-14 less',
+    anchor:'anchor'
 
 }

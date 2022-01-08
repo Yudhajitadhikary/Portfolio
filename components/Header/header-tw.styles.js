@@ -1,3 +1,4 @@
 export default {
-    content:'header-mobile'
+    content:'header-mobile',
+    anchorLink:'anchorLink nav-link-desktop'
 }
