@@ -7,15 +7,15 @@ export default function Blogs() {
 <div>
     <div className={styles.contentwrapper}>
         <h1 className={styles.nameStyleSub}>Blogs</h1>
-        <p className={styles.nameStyle}>I use to write technical blogs in <a href='href="https://yudhajitadhikary.medium.com/'>Medium.com</a> . Through Blogs I try to bring technical staffs related to my domain to my readers in my own simple way , the way I used to understand things with a simple demo with a complete line by line code walk through.</p>
+        <p className={styles.nameStyle}>I use to write technical blogs in <a className={styles.anchor} href="https://yudhajitadhikary.medium.com/">Medium.com</a> . Through Blogs I try to bring technical staffs related to my domain to my readers in my own simple way , the way I used to understand things with a simple demo with a complete line by line code walk through.</p>
         </div>
         <div>
         <div className={styles.cardParent}>
             {constants.blogs.map((item,index)=>(
-            <div className='parentCardWrapper'>
+            <div key={index} className='parentCardWrapper'>
                 <div>
                     <div>
-                        <a href={item.url} target="_blank">
+                        <a className={styles.anchorLink} href={item.url} target="_blank" rel="noreferrer">
                             <div className={styles.flexWrapper}>
                         <div className='cardTextBlogs'>
                         <h4 className={styles.nameStyle}>

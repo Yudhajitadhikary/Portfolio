@@ -7,6 +7,9 @@ export default {
     nameStyleSub:'mb-10 high',
     contentsubWrapper:'mb-14 less',
     socialWrapper:'mr-10',
-    socialParent:'flex socialwrapper'
+    socialParent:'flex socialwrapper',
+    field:'text-black',
+    button:'submitbutton',
+    anchor:'anchor'
 
 }

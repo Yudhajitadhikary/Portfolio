@@ -8,6 +8,7 @@ export default {
     nameStyleSub:'mb-10 high',
     workImageSecond:'workImage secondcard',
     flexWrapperImage:'flex flex-wrap cardImage',
-    flexWrapper:'flex flex-wrap'
+    flexWrapper:'flex flex-wrap',
+    anchor:'anchorLink'
 
 }
