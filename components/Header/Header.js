@@ -35,11 +35,9 @@ class Header extends Component{
         return(
             <React.Fragment>
                 <div className={style.content}>
-                    {isMobile && isMobile !==null?!open?<button onClick={this.handleHamburgerClick}>
+                    {isMobile && isMobile !==null?!open?<button className={style.humburger} onClick={this.handleHamburgerClick}>
                     <img src="https://img.icons8.com/ios/50/ffffff/menu--v1.png"/>
-                        </button>:<button onClick={this.handleHamburgerClose}> 
-                        <img src="https://img.icons8.com/material-sharp/24/ffffff/railroad-crossing-sign--v2.png"/>
-                            </button>:''}
+                        </button>:'':''}
                     {
                         !isMobile && isMobile !==null && (<DesktopNavigation/>)
                     }
@@ -47,7 +45,7 @@ class Header extends Component{
                         screenWidth && isMobile && isMobile !==null &&(
                             
                             <div>
-                            <MobileNavigation open={open}/></div>
+                            <MobileNavigation open={open} handleHamburgerClose={this.handleHamburgerClose}/></div>
                         )
                     }
                 </div>
