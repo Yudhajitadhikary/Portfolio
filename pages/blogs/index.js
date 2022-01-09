@@ -7,7 +7,8 @@ export default function Blogs() {
 <div>
     <div className={styles.contentwrapper}>
         <h1 className={styles.nameStyleSub}>Blogs</h1>
-        <p className={styles.nameStyle}>I use to write technical blogs in <a className={styles.anchor} href="https://yudhajitadhikary.medium.com/">Medium.com</a> . Through Blogs I try to bring technical staffs related to my domain to my readers in my own simple way , the way I used to understand things with a simple demo with a complete line by line code walk through.</p>
+        <p className={styles.nameStyle}>I write technical blogs in <a className={styles.anchor} href="https://yudhajitadhikary.medium.com/">Medium.com</a> . Through my blogs i try to bring technical knowledge that I have learned & worked on over the few years to my reader in my own simple way.The way I used to understand things with a simple demo with a complete line by line code walk through.</p>
+        <p className={styles.nameStyle}>Below are few examples. If you find any topic interesting, take sometime to go through my blogs, and don't forget to share your thoughts! </p>
         </div>
         <div>
         <div className={styles.cardParent}>

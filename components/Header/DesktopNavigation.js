@@ -5,7 +5,7 @@ const DesktopNavigation=()=>{
     return(
         <div data-collapse="small" data-animation="default" data-duration="400" id="navbar-desktop" className="navbar-desktop">
             <nav role="navigation" className="nav-menu-2">
-                <a className={styles.anchorLink} href="/" className="nav-link-desktop"> Home</a>
+                <a className={styles.anchorLink} href="/"> Home</a>
                 <a className={styles.anchorLink} href="/about">About</a>
                 <a className={styles.anchorLink} href="/works" id="navbar-building">Work</a>
                 <a className={styles.anchorLink} href="/blogs">Blogs</a>
