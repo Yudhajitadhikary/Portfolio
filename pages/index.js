@@ -13,9 +13,9 @@ export default function Home() {
                     </div>
                     <div className={styles.contentsubWrapper}> 
                         <h3 className={styles.nameStyle} >3 years of experience in developing responsive website.</h3>
-                    <h3 className={styles.nameStyle}>Senior Software Engineer at <a className={styles.anchor} href="https://www.mindtree.com/" target="_blank" rel="noreferrer">Mindtree</a>.</h3>
+                    <h3 className={styles.nameStyle}>Senior Software Engineer at <a target="_blank" className={styles.anchor} href="https://www.mindtree.com/" target="_blank" rel="noreferrer">Mindtree</a>.</h3>
                     <h3 className={styles.nameStyle}>Highly fascinated with Music.</h3>
                     </div>
-                    <div className={styles.nameDiv}><h4 className={styles.nameStyle}><a className={styles.anchor} href="/about">Learn more&nbsp;</a></h4></div></div></div>
+                    <div className={styles.nameDiv}><h4 className={styles.nameStyle}><a target="_blank" className={styles.anchor} href="/about">Learn more&nbsp;</a></h4></div></div></div>
     )
 }

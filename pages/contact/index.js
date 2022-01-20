@@ -62,37 +62,37 @@ export default function Contact() {
                 )}
             />
       <div className={styles.socialParent}>
-        <a
+        <a target="_blank"
           href="https://yudhajitadhikary.medium.com/"
           className={styles.socialWrapper}
         >
           <img src="https://img.icons8.com/ios/50/ffffff/medium-logo.png" />
         </a>
-        <a
+        <a target="_blank"
           href="https://www.facebook.com/yudhajit.adhikary"
           className={styles.socialWrapper}
         >
           <img src="https://img.icons8.com/ios-filled/50/ffffff/facebook-new.png" />
         </a>
-        <a
+        <a target="_blank"
           href="https://twitter.com/yudha19971"
           className={styles.socialWrapper}
         >
           <img src="https://img.icons8.com/ios-filled/50/ffffff/twitter.png" />
         </a>
-        <a
+        <a target="_blank"
           href="https://www.linkedin.com/in/yudhajit-adhikary-500898159"
           className={styles.socialWrapper}
         >
           <img src="https://img.icons8.com/ios-filled/50/ffffff/linkedin.png" />
         </a>
-        <a
+        <a target="_blank"
           href="https://github.com/Yudhajitadhikary"
           className={styles.socialWrapper}
         >
           <img src="https://img.icons8.com/ios-filled/50/ffffff/github.png" />
         </a>
-        <a
+        <a target="_blank"
           href="https://www.instagram.com/yudha_clicks"
           className={styles.socialWrapper}
         >
