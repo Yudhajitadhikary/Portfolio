@@ -12,7 +12,7 @@ export default function About() {
         <p className={styles.nameStyle}>I’ve worked with small, agile teams on skunkworks projects and larger development teams with product lifecycles spanning multiple years.</p>
         <p className={styles.nameStyle}>Bringing forth expertise in design, installation, testing and maintenance of web systems. </p>
         <p className={styles.nameStyle}>Equipped with a diverse and promising skillset.</p>
-        <p className={styles.nameStyle}>Want to connect with me ?&nbsp;<a className={styles.anchor} href="/contact">Let's talk</a>.</p>
+        <p className={styles.nameStyle}>Want to connect with me ?&nbsp;<a target="_blank" className={styles.anchor} href="/contact">Let's talk</a>.</p>
         </div>
         </div>
     )

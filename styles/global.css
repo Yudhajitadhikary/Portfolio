@@ -188,6 +188,9 @@
     }
 }
 @media screen and (max-width: 375px){
+    .blogTitle {
+        max-width: 340px;
+    }
     .contact {
         width: 267px;
     }
