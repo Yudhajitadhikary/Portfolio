@@ -1,7 +1,7 @@
 export default {
     body:'',
     contentwrapper:'content-wrapper',
-    nameStyle:'leading-snug font-normal ',
+    nameStyle:'leading-snug font-normal blogTitle',
     cardParent:'cardWrapper',
     nameStyleLess:'less',
     workImage:'workImage',

@@ -92,6 +92,12 @@ export default function Contact() {
         >
           <img src="https://img.icons8.com/ios-filled/50/ffffff/github.png" />
         </a>
+        <a
+          href="https://www.instagram.com/yudha_clicks"
+          className={styles.socialWrapper}
+        >
+          <img src="https://img.icons8.com/ios-filled/50/ffffff/instagram-new--v1.png"/>
+        </a>
       </div>
       <div>
         <div className={styles.nameStyle}>Contact: +91 6371272905</div>
