@@ -25,6 +25,9 @@ export default function Works() {
                         <div className={styles.nameStyleLess}> 
                         {item.description}
                         </div>
+                        <div className={styles.nameStyleLess}>
+                            {item.TechStack}
+                            </div>
                         </div>
                         <div className={styles.flexWrapperImage}>
                             <div>
