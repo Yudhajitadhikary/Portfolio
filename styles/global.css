@@ -121,7 +121,7 @@
         width: 'auto';
     }
     #body {
-    background-image: url('https://uploads-ssl.webflow.com/591e9525f13786217f2e347e/5b47654a49f3e1543ba2a603_180712%20-%20background.jpg');
+    background-image: url('../components/constants/Yudha.jpg');
     background-position: 50% 0;
     background-size: cover;
     background-repeat: no-repeat;
