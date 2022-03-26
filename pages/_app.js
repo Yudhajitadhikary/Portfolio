@@ -5,11 +5,14 @@ import Layout from '../components/Layout/Layout'
 function MyApp({ Component, pageProps }) {
 
     return( <>
+    <head>
+    <link rel='stylesheet' type='text/css' href='../styles/global.css'/>
+    </head>
         <Layout>
             <div id='body'>
             <Component {...pageProps}/>
             </div>
-        </Layout>
+        </Layout> 
     </>)
 }
 MyApp.propTypes={

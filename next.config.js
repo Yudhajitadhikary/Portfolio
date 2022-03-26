@@ -1,5 +1,4 @@
 module.exports = {
-    basePath:'/Portfolio',
     assetPrefix:'/Portfolio/',
     webpack: (config, { isServer }) => {
         if (!isServer) {
