@@ -6,6 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "export":"next export",
     "lint": "npm run lint:js",
     "lint:js": "eslint \"./**/*.js\" --fix",
     "test": "jest --passWithNoTests"
@@ -16,7 +17,7 @@
     "express": "^4.17.2",
     "express-handlebars": "^6.0.2",
     "formik": "^2.2.9",
-    "next": "latest",
+    "next": "^12.1.0",
     "nodemailer": "^6.7.2",
     "prop-types": "^15.7.2",
     "react": "^17.0.2",
