@@ -1,5 +1,6 @@
 module.exports = {
-    assetPrefix:'/Portfolio/',
+    assetPrefix:'/Portfolio',
+    basePath:'/Portfolio',
     webpack: (config, { isServer }) => {
         if (!isServer) {
             // don't resolve 'fs' module on the client to prevent this error on build --> Error: Can't resolve 'fs'
