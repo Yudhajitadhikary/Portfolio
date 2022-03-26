@@ -12,7 +12,7 @@ export default function Home() {
                     <h1 className={styles.nameStyleSub}>Web Developer. Technical Blogger<br/></h1>
                     </div>
                     <div className={styles.contentsubWrapper}> 
-                        <h3 className={styles.nameStyle} >3 years of experience in developing responsive website.</h3>
+                        <h3 className={styles.nameStyle} >Meticulous web developer with over 3 years of front end experience </h3>
                     <h3 className={styles.nameStyle}>Senior Software Engineer at <a target="_blank" className={styles.anchor} href="https://www.mindtree.com/" target="_blank" rel="noreferrer">Mindtree</a>.</h3>
                     <h3 className={styles.nameStyle}>Highly fascinated with Music.</h3>
                     </div>
