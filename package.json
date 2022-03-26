@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "export":"next export",
+    "export": "next export",
     "lint": "npm run lint:js",
     "lint:js": "eslint \"./**/*.js\" --fix",
     "test": "jest --passWithNoTests"
