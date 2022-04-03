@@ -23,8 +23,8 @@ export default function Contact() {
                         .required('Email is required'),
                     name: Yup.string()
                         .min(1, 'name is required')
-                        .matches(/[A-Za-z]/g,'invalid Password')
-                        .required('Password is required'),
+                        .matches(/[A-Za-z]/g,'invalid Name')
+                        .required('Name is required'),
                     message:  Yup.string()
                 })}
                 onSubmit={fields => {
@@ -41,17 +41,17 @@ export default function Contact() {
                     <Form>
                       
                         <div className="form-group">
-                            <label htmlFor="email">Email</label>
+                            <label htmlFor="email" className="formikLabel">Email</label>
                             <Field name="email" type="text" className={'form-control' + (errors.email && touched.email ? ' is-invalid' : '')} />
                             <ErrorMessage name="email" component="div" className="invalid-feedback" />
                         </div>
                         <div className="form-group">
-                            <label htmlFor="name">Name</label>
+                            <label htmlFor="name" className="formikLabel">Name</label>
                             <Field name="name" type="text" className={'form-control' + (errors.name && touched.name ? ' is-invalid' : '')} />
                             <ErrorMessage name="name" component="div" className="invalid-feedback" />
                         </div>
                         <div className="form-group">
-                            <label htmlFor="confirmPassword">Message</label>
+                            <label htmlFor="confirmPassword" className="formikLabel">Message</label>
                             <Field name="message" type="text" className={'form-control'} />
                         </div>
                         <div className="form-group">
@@ -64,37 +64,37 @@ export default function Contact() {
       <div className={styles.socialParent}>
         <a target="_blank"
           href="https://yudhajitadhikary.medium.com/"
-          className={styles.socialWrapper}
+          className={styles.socialWrapper} rel="noreferrer"
         >
           <img src="https://img.icons8.com/ios/50/ffffff/medium-logo.png" />
         </a>
         <a target="_blank"
           href="https://www.facebook.com/yudhajit.adhikary"
-          className={styles.socialWrapper}
+          className={styles.socialWrapper} rel="noreferrer"
         >
           <img src="https://img.icons8.com/ios-filled/50/ffffff/facebook-new.png" />
         </a>
         <a target="_blank"
           href="https://twitter.com/yudha19971"
-          className={styles.socialWrapper}
+          className={styles.socialWrapper} rel="noreferrer"
         >
           <img src="https://img.icons8.com/ios-filled/50/ffffff/twitter.png" />
         </a>
         <a target="_blank"
           href="https://www.linkedin.com/in/yudhajit-adhikary-500898159"
-          className={styles.socialWrapper}
+          className={styles.socialWrapper} rel="noreferrer"
         >
           <img src="https://img.icons8.com/ios-filled/50/ffffff/linkedin.png" />
         </a>
         <a target="_blank"
           href="https://github.com/Yudhajitadhikary"
-          className={styles.socialWrapper}
+          className={styles.socialWrapper} rel="noreferrer"
         >
           <img src="https://img.icons8.com/ios-filled/50/ffffff/github.png" />
         </a>
         <a target="_blank"
           href="https://www.instagram.com/yudha_clicks"
-          className={styles.socialWrapper}
+          className={styles.socialWrapper} rel="noreferrer"
         >
           <img src="https://img.icons8.com/ios-filled/50/ffffff/instagram-new--v1.png"/>
         </a>

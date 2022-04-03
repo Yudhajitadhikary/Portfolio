@@ -59,6 +59,10 @@
     margin-right: 50px;
     margin-left: 50px;
 }
+.form-control {
+    color: #f0860c;
+
+}
 .nav-link-desktop {
     left: 0;
     top: 0;
@@ -79,12 +83,6 @@
 }
 .font-normals {
     font-size: 25px;
-}
-.font-normal {
-    font-size: 28px;
-}
-.less {
-    font-size: 20px;
 }
 .high {
     font-size: 63px;
@@ -117,8 +115,21 @@
             background-image: linear-gradient(180deg,rgba(0,0,0,.8),rgba(0,0,0,.8));
 }
 @media screen and (max-width: 1680px){
+    .socialIcon {
+        margin-right:20px;
+    }
+    .blogTitle {
+        min-width:700px;
+        /* padding-right: 176px; */
+        /* min-width:700px; */
+    }
     .form-group {
-        width: 'auto';
+        width: auto !important;
+        padding-bottom: 19px;
+    }
+    .formikLabel {
+        display:inline-block;
+        min-width:81px;
     }
     #body {
     background-image: url('../components/constants/Yudha.jpg');
@@ -129,18 +140,24 @@
     color: #fff;
     }
     .cardTextBlogs{
-        min-width: 900px;
         margin-top:81px;
+    }
+    .font-normal {
+        font-size: 24px;
+    }
+    .less {
+        font-size: 17px;
     }
     .secondcard {
         margin-left: 37px;
     }
     .cardText {
-        padding-right: 100px;
+        /* max-width:240px; */
+        min-width:700px;
     }
     .workImage {
-        max-width:390px;
-        max-height:290px;
+        max-width:250px;
+        max-height:250px;
     }
     .content-wrapper {
         margin-top: 0;
@@ -152,17 +169,35 @@
     }
     }
 @media screen and (max-width: 768px){
+    .blogTitle {
+        min-width: 340px;
+
+    }
+    .socialIcon {
+        margin-right:5px;
+    }
+
     .form-group {
-        width: 'auto';
+        width: auto !important;
+    }
+    .formikLabel {
+        display:inline-block;
+        min-width:81px;
     }
     #body {
         background-position: 68% 50%;
         background-size: cover;
     }
-    /* .secondcard {
+    .font-normal {
+        font-size: 24px;
+    }
+    .less {
+        font-size: 17px;
+    }
+    .secondcard {
         margin-left: 0px;
         margin-top: 30px;
-    } */
+    }
     .nowrap {
         flex-wrap: nowrap;
     }
@@ -171,12 +206,12 @@
         margin-top:0px;
     }
     .cardText {
-        padding-right: 100px;
+        max-width:240px;
         padding-bottom: 10px;
     }
     .workImage {
-        max-width:328px;
-        max-height:241px;
+        max-width:250px;
+        max-height:250px;
     }
     .content-wrapper {
         margin-top: 0;
@@ -184,18 +219,35 @@
     }
     .content-wrappers {
         margin-top: 0;
-    padding: 100px 45% 485px 60px;
+    padding: 100px 18% 485px 60px;
     }
 }
 @media screen and (max-width: 375px){
+    .socialIcon {
+        margin-right:5px;
+    }
     .blogTitle {
-        max-width: 340px;
+        min-width: 340px;
     }
     .contact {
         width: 267px;
     }
+    .secondcard {
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+    .font-normal {
+        font-size: 24px;
+    }
+    .less {
+        font-size: 17px;
+    }
+    .formikLabel {
+        display:inline-block;
+        min-width:81px;
+    }
     .form-group {
-        width: 300px;
+        width: 300px !important;
     }
     #body {
         background-position: 66% 50%;
@@ -213,12 +265,12 @@
         margin-top:0px;
     }
     .cardText {
-        padding-right: 100px;
+        max-width:240px;
         padding-bottom:10px;
     }
     .workImage {
-        max-width:295px;
-        max-height:216px;
+        max-width:250px;
+        max-height:250px;
     }
     
     .content-wrapper {
@@ -227,7 +279,7 @@
     }
     .content-wrappers {
         margin-top: 0;
-    padding: 100px 45% 385px 60px;
+    padding: 100px 18% 385px 60px;
     }
     }
 
