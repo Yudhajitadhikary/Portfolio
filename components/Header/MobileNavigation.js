@@ -24,6 +24,8 @@ const MobileNavigation=({open,handleHamburgerClose})=>{
     )
 }
 MobileNavigation.propTypes={
-    show:PropTypes.object.isRequired
+    open:PropTypes.bool,
+    handleHamburgerClose:PropTypes.func
+
 }
 export default MobileNavigation
