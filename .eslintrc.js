@@ -17,7 +17,7 @@ module.exports = {
       sourceType: "module",
     },
     plugins: ["react", "import", "react-hooks"],
-    ignorePatterns: ["node_modules/"],
+    ignorePatterns: ["node_modules/",".github","out"],
     rules: {
       "react/no-unescaped-entities": 0
     },

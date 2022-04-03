@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React from "react";
 import styles from "./contact-tw-styles";
 import { Formik, Field, Form, ErrorMessage } from 'formik';
@@ -27,10 +28,11 @@ export default function Contact() {
                         .required('Name is required'),
                     message:  Yup.string()
                 })}
-                onSubmit={fields => {
+                onSubmit={(fields, { resetForm })=> {
                   emailjs.init("user_Q2lUYckdn04UnayhBs4hr");
                   emailjs.send('service_kciys6q', 'template_x19ywo4', fields)
     .then(function(response) {
+      resetForm()
        console.log('SUCCESS!', response.status, response.text);
     }, function(error) {
        console.log('FAILED...', error);
