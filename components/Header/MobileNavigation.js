@@ -9,7 +9,7 @@ const MobileNavigation=({open,handleHamburgerClose})=>{
             <nav role="navigation" className="nav-menu-2">
                 <Link href="/"><a onClick={handleHamburgerClose} className="nav-link-desktop nav-link-nad w-nav-link"> Home</a></Link>
                 <Link href="/about"><a onClick={handleHamburgerClose} className="nav-link-desktop w-nav-link">About</a></Link>
-                <Link href="/works"><a onClick={handleHamburgerClose} id="navbar-building" className="nav-link-desktop nav-link-building w-nav-link">Work</a></Link>
+                {/* <Link href="/works"><a onClick={handleHamburgerClose} id="navbar-building" className="nav-link-desktop nav-link-building w-nav-link">Work</a></Link> */}
                 <Link href="/blogs"><a onClick={handleHamburgerClose}  className="nav-link-desktop w-nav-link">Blogs</a></Link>
                 <Link href="/contact"><a onClick={handleHamburgerClose}  aria-current="page" className="nav-link-desktop nav-link-contact w-nav-link w--current">Contact</a></Link>
                 <button 
