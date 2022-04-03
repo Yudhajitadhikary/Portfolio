@@ -18,18 +18,18 @@ export default function Blogs() {
                     <div>
                         <a className={styles.anchorLink} href={item.url} target="_blank" rel="noreferrer">
                             <div className={styles.flexWrapper}>
-                        <div className='cardTextBlogs'>
-                        <h4 className={styles.nameStyle}>
-                            {item.title}
-                        </h4>
+                        {/* <div className='cardTextBlogs'> */}
+                        
                         {/* <div className={styles.nameStyleLess}> 
                         {item.description}
                         </div> */}
-                        </div>
-                        <div className={styles.flexWrapperImage}>
-                            <div>
+                        {/* </div> */}
+                        < div className={styles.flexWrapperImage}>
+                        <h4 className={styles.nameStyle}>
+                            {`${item.title.substring(0,60)}...`}
+                        </h4> 
                         <img src={item.imageFront} className={styles.workImage}/>
-                        </div>
+                        
                         {/* <div>
                         <img src={item.imageBack} className={styles.workImageSecond}/>
                         </div> */}
