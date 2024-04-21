@@ -3,7 +3,7 @@ module.exports={
     works:[
         {
             title:'Jumeirah',
-            description:'Dubai Holdings (Mindtree)',
+            description:'Dubai Holdings (LTIMindtree)',
             TechStack:'ReactJS, SCSS',
             imageBack: 'https://res.cloudinary.com/drl2rvpo1/image/upload/q_auto/v1640069257/JumeirahFront_otuqzj.png',
             imageFront:'https://res.cloudinary.com/drl2rvpo1/image/upload/q_auto/v1640069881/JumeirahBack_pkrs2j.png',
@@ -11,7 +11,7 @@ module.exports={
         },
         {
             title:'Downy US',
-            description:'Procter & Gamble (Mindtree)',
+            description:'Procter & Gamble (LTIMindtree)',
             TechStack:'NextJS, Tailwindcss',
             imageBack: 'https://res.cloudinary.com/drl2rvpo1/image/upload/q_auto/v1640069854/DownyFront_qgyse3.png',
             imageFront:'https://res.cloudinary.com/drl2rvpo1/image/upload/q_auto/v1640069861/DownyBack_v8oiqq.png',
@@ -19,7 +19,7 @@ module.exports={
         },
         {
             title:'Olay Canada',
-            description:'Procter & Gamble (Mindtree)',
+            description:'Procter & Gamble (LTIMindtree)',
             TechStack:'NextJS, Tailwindcss',
             imageBack: 'https://res.cloudinary.com/drl2rvpo1/image/upload/q_auto/v1640069875/OlayBack_oon1sq.png',
             imageFront:'https://res.cloudinary.com/drl2rvpo1/image/upload/q_auto/v1640069876/OlayFront_tvxnra.png',
@@ -27,7 +27,7 @@ module.exports={
         },
         {
             title:'Gillette Portugal',
-            description:'Procter & Gamble (Mindtree)',
+            description:'Procter & Gamble (LTIMindtree)',
             TechStack:'NextJS, Tailwindcss',
             imageBack: 'https://res.cloudinary.com/drl2rvpo1/image/upload/q_auto/v1640069872/GillettePortugalFront_tpaugc.png',
             imageFront:'https://res.cloudinary.com/drl2rvpo1/image/upload/q_auto/v1640069846/GillettePortugalBack_nucvep.png',
@@ -35,7 +35,7 @@ module.exports={
         },
         {
             title:'Gillette Taiwan',
-            description:'Procter & Gamble (Mindtree)',
+            description:'Procter & Gamble (LTIMindtree)',
             TechStack:'NextJS, Tailwindcss',
             imageBack: 'https://res.cloudinary.com/drl2rvpo1/image/upload/q_auto/v1640069878/GilletteTaiwanFront_wfyfvf.png',
             imageFront:'https://res.cloudinary.com/drl2rvpo1/image/upload/q_auto/v1640069862/GilletteTaiwanBack_c0bzrx.png',
@@ -43,7 +43,7 @@ module.exports={
         },
         {
             title:'Gillette Singapore',
-            description:'Procter & Gamble (Mindtree)',
+            description:'Procter & Gamble (LTIMindtree)',
             TechStack:'NextJS, Tailwindcss',
             imageBack: 'https://res.cloudinary.com/drl2rvpo1/image/upload/q_auto/v1640069855/GiletteSingaporeFront_x2givh.png',
             imageFront:'https://res.cloudinary.com/drl2rvpo1/image/upload/q_auto/v1640069853/GilletteSingaporeBack_huxh7x.png',
@@ -51,7 +51,7 @@ module.exports={
         },
         {
             title:'Gillette Korea',
-            description:'Procter & Gamble (Mindtree)',
+            description:'Procter & Gamble (LTIMindtree)',
             TechStack:'NextJS, Tailwindcss',
             imageBack: 'https://res.cloudinary.com/drl2rvpo1/image/upload/q_auto/v1640069845/GilletteKoreaFront_wmgdyy.png',
             imageFront:'https://res.cloudinary.com/drl2rvpo1/image/upload/q_auto/v1640069874/GilletteKoreaBack_ljk1fj.png',
@@ -266,6 +266,28 @@ module.exports={
             // imageBack: 'https://res.cloudinary.com/drl2rvpo1/image/upload/v1640069845/GilletteKoreaFront_wmgdyy.png',
             imageFront:'https://miro.medium.com/max/1400/1*KY8GcnRglBI9P1-ku6GFgw.png',
             url:'https://yudhajitadhikary.medium.com/how-to-create-routes-using-express-and-postman-5f200b3b85b6'
-        }
+        },
+        { title:'Let’s get started with Algolia…',
+        imageFront:'https://miro.medium.com/v2/resize:fit:1340/format:webp/1*PIcs9uQuDg5twaOeVmDidw.jpeg',
+        url:'https://medium.com/@yudhajitadhikary/lets-get-started-with-algolia-517b9c6984c3'
+         },
+         {
+            title:"Big O Notation in JS….",
+            imageFront:"https://miro.medium.com/v2/resize:fit:1400/format:webp/1*ckFZ3PWssoWrWrRFU3fZQg.jpeg",
+            url:"https://medium.com/@yudhajitadhikary/big-o-notation-in-js-e04b076dced1"
+         },
+         {
+            title:"Recursion in Js ….",
+            imageFront:"https://miro.medium.com/v2/resize:fit:1400/format:webp/1*2Kdz84xWYZvk_wX4lcunIg.jpeg",
+            url:"https://medium.com/@yudhajitadhikary/recursion-in-js-39540ad623cd"
+         },{
+            title:"Searching in JavaScript…",
+            imageFront:"https://miro.medium.com/v2/resize:fit:1224/format:webp/1*t7sYlIl-bOZ_JaSoUwH5nA.jpeg",
+            url:"https://medium.com/@yudhajitadhikary/searching-in-javascript-cef681b60df4"
+         },{
+            title:"Elementary Sorting in JavaScript",
+            imageFront:"https://miro.medium.com/v2/resize:fit:1400/format:webp/1*Ej3XVEITXbQxyGTfhSn_Zw.jpeg",
+            url:"https://medium.com/@yudhajitadhikary/elementary-sorting-in-javascript-015cf2a036ff"
+         }
     ]
 }

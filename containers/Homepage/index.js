@@ -13,8 +13,8 @@ export default function Home() {
                     <h1 className={styles.nameStyleSub}>Web Developer. Technical Blogger<br/></h1>
                     </div>
                     <div className={styles.contentsubWrapper}> 
-                        <h3 className={styles.nameStyle} >Meticulous web developer with over 3 years of front end experience </h3>
-                    <h3 className={styles.nameStyle}>Senior Software Engineer at <a target="_blank" className={styles.anchor} href="https://www.mindtree.com/"  rel="noreferrer">Mindtree</a>.</h3>
+                        <h3 className={styles.nameStyle} >Meticulous web developer with over 5 years of front end experience </h3>
+                    <h3 className={styles.nameStyle}>Senior Software Engineer at <a target="_blank" className={styles.anchor} href="https://www.ltimindtree.com/"  rel="noreferrer">LTIMindtree</a>.</h3>
                     <h3 className={styles.nameStyle}>Highly fascinated with Music.</h3>
                     </div>
                     <div className={styles.nameDiv}><h4 className={styles.nameStyle}><Link href="/about"><a target="_blank" className={styles.anchor} >Learn more&nbsp;</a></Link></h4></div></div></div>

@@ -132,7 +132,7 @@
         min-width:81px;
     }
     #body {
-    background-image: url('../components/constants/Yudha.jpg');
+    background-image: url('../public/Yudha.avif');
     background-position: 50% 0;
     background-size: cover;
     background-repeat: no-repeat;

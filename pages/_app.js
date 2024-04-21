@@ -6,7 +6,7 @@ function MyApp({ Component, pageProps }) {
 
     return( <>
     <head>
-    <link rel='stylesheet' type='text/css' href='../styles/global.css'/>
+    {/* <link rel='stylesheet' type='text/css' href='../styles/global.css'/> */}
     </head>
         <Layout>
             <div id='body'>

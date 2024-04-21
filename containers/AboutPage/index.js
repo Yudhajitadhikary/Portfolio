@@ -8,7 +8,7 @@ export default function About() {
     <div className={styles.contentwrapper}>
         <h1 className={styles.nameStyleSub}>I build value by coding.</h1>
         <p className={styles.nameStyle}>I am Yudhajit Adhikary, but you can just call me Yudha.
-        Meticulous web developer with over 3 years of front end experience and passion for responsive website design and a firm believer in the mobile-first approach.
+        Meticulous web developer with over 5 years of front end experience and passion for responsive website design and a firm believer in the mobile-first approach.
         I’ve worked with small, agile teams on skunkworks projects and larger development teams with product lifecycles spanning multiple years.
         Bringing forth expertise in design, installation, testing and maintenance of web systems.
         Equipped with a diverse and promising skillset.</p>
