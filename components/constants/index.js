@@ -1,60 +1,60 @@
-// import JumeirahFront from '../../public/images/JumeirahFront.png'
+
 module.exports={
     works:[
         {
             title:'Jumeirah',
             description:'Dubai Holdings (LTIMindtree)',
             TechStack:'ReactJS, SCSS',
-            imageBack: 'https://res.cloudinary.com/drl2rvpo1/image/upload/q_auto/v1640069257/JumeirahFront_otuqzj.png',
-            imageFront:'https://res.cloudinary.com/drl2rvpo1/image/upload/q_auto/v1640069881/JumeirahBack_pkrs2j.png',
+            imageBack:'/JumeirahFront.avif',
+            imageFront:'/JumeirahBack.avif',
             url:'https://www.jumeirah.com/en'
         },
         {
             title:'Downy US',
             description:'Procter & Gamble (LTIMindtree)',
             TechStack:'NextJS, Tailwindcss',
-            imageBack: 'https://res.cloudinary.com/drl2rvpo1/image/upload/q_auto/v1640069854/DownyFront_qgyse3.png',
-            imageFront:'https://res.cloudinary.com/drl2rvpo1/image/upload/q_auto/v1640069861/DownyBack_v8oiqq.png',
+            imageBack: '/DownyFront.avif',
+            imageFront:'/DownyBack.avif',
             url:'https://downy.com/en-us'
         },
         {
             title:'Olay Canada',
             description:'Procter & Gamble (LTIMindtree)',
             TechStack:'NextJS, Tailwindcss',
-            imageBack: 'https://res.cloudinary.com/drl2rvpo1/image/upload/q_auto/v1640069875/OlayBack_oon1sq.png',
-            imageFront:'https://res.cloudinary.com/drl2rvpo1/image/upload/q_auto/v1640069876/OlayFront_tvxnra.png',
+            imageBack: '/OlayBack.avif',
+            imageFront:'/OlayFront.avif',
             url:'https://www.olay.ca/en-ca'
         },
         {
             title:'Gillette Portugal',
             description:'Procter & Gamble (LTIMindtree)',
             TechStack:'NextJS, Tailwindcss',
-            imageBack: 'https://res.cloudinary.com/drl2rvpo1/image/upload/q_auto/v1640069872/GillettePortugalFront_tpaugc.png',
-            imageFront:'https://res.cloudinary.com/drl2rvpo1/image/upload/q_auto/v1640069846/GillettePortugalBack_nucvep.png',
+            imageBack: '/GillettePortugalFront.avif',
+            imageFront:'/GillettePortugalBack.avif',
             url:'https://gillette.pt/pt-pt'
         },
         {
             title:'Gillette Taiwan',
             description:'Procter & Gamble (LTIMindtree)',
             TechStack:'NextJS, Tailwindcss',
-            imageBack: 'https://res.cloudinary.com/drl2rvpo1/image/upload/q_auto/v1640069878/GilletteTaiwanFront_wfyfvf.png',
-            imageFront:'https://res.cloudinary.com/drl2rvpo1/image/upload/q_auto/v1640069862/GilletteTaiwanBack_c0bzrx.png',
+            imageBack: '/GilletteTaiwanFront.avif',
+            imageFront:'/GilletteTaiwanBack.avif',
             url:'https://www.gillette.com.tw/zh-tw'
         },
         {
             title:'Gillette Singapore',
             description:'Procter & Gamble (LTIMindtree)',
             TechStack:'NextJS, Tailwindcss',
-            imageBack: 'https://res.cloudinary.com/drl2rvpo1/image/upload/q_auto/v1640069855/GiletteSingaporeFront_x2givh.png',
-            imageFront:'https://res.cloudinary.com/drl2rvpo1/image/upload/q_auto/v1640069853/GilletteSingaporeBack_huxh7x.png',
+            imageBack: '/GiletteSingaporeFront.avif',
+            imageFront:'/GilletteSingaporeBack.avif',
             url:'https://www.gillette.sg/en-sg'
         },
         {
             title:'Gillette Korea',
             description:'Procter & Gamble (LTIMindtree)',
             TechStack:'NextJS, Tailwindcss',
-            imageBack: 'https://res.cloudinary.com/drl2rvpo1/image/upload/q_auto/v1640069845/GilletteKoreaFront_wmgdyy.png',
-            imageFront:'https://res.cloudinary.com/drl2rvpo1/image/upload/q_auto/v1640069874/GilletteKoreaBack_ljk1fj.png',
+            imageBack: '/GilletteKoreaFront.avif',
+            imageFront:'/GilletteKoreaBack.avif',
             url:'https://gillette.co.kr/ko-kr'
         }
     ],
