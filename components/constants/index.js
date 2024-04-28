@@ -5,56 +5,56 @@ module.exports={
             title:'Jumeirah',
             description:'Dubai Holdings (LTIMindtree)',
             TechStack:'ReactJS, SCSS',
-            imageBack:'/JumeirahFront.avif',
-            imageFront:'/JumeirahBack.avif',
+            imageBack:'JumeirahFront.avif',
+            imageFront:'JumeirahBack.avif',
             url:'https://www.jumeirah.com/en'
         },
         {
             title:'Downy US',
             description:'Procter & Gamble (LTIMindtree)',
             TechStack:'NextJS, Tailwindcss',
-            imageBack: '/DownyFront.avif',
-            imageFront:'/DownyBack.avif',
+            imageBack: 'DownyFront.avif',
+            imageFront:'DownyBack.avif',
             url:'https://downy.com/en-us'
         },
         {
             title:'Olay Canada',
             description:'Procter & Gamble (LTIMindtree)',
             TechStack:'NextJS, Tailwindcss',
-            imageBack: '/OlayBack.avif',
-            imageFront:'/OlayFront.avif',
+            imageBack: 'OlayBack.avif',
+            imageFront:'OlayFront.avif',
             url:'https://www.olay.ca/en-ca'
         },
         {
             title:'Gillette Portugal',
             description:'Procter & Gamble (LTIMindtree)',
             TechStack:'NextJS, Tailwindcss',
-            imageBack: '/GillettePortugalFront.avif',
-            imageFront:'/GillettePortugalBack.avif',
+            imageBack: 'GillettePortugalFront.avif',
+            imageFront:'GillettePortugalBack.avif',
             url:'https://gillette.pt/pt-pt'
         },
         {
             title:'Gillette Taiwan',
             description:'Procter & Gamble (LTIMindtree)',
             TechStack:'NextJS, Tailwindcss',
-            imageBack: '/GilletteTaiwanFront.avif',
-            imageFront:'/GilletteTaiwanBack.avif',
+            imageBack: 'GilletteTaiwanFront.avif',
+            imageFront:'GilletteTaiwanBack.avif',
             url:'https://www.gillette.com.tw/zh-tw'
         },
         {
             title:'Gillette Singapore',
             description:'Procter & Gamble (LTIMindtree)',
             TechStack:'NextJS, Tailwindcss',
-            imageBack: '/GiletteSingaporeFront.avif',
-            imageFront:'/GilletteSingaporeBack.avif',
+            imageBack: 'GiletteSingaporeFront.avif',
+            imageFront:'GilletteSingaporeBack.avif',
             url:'https://www.gillette.sg/en-sg'
         },
         {
             title:'Gillette Korea',
             description:'Procter & Gamble (LTIMindtree)',
             TechStack:'NextJS, Tailwindcss',
-            imageBack: '/GilletteKoreaFront.avif',
-            imageFront:'/GilletteKoreaBack.avif',
+            imageBack: 'GilletteKoreaFront.avif',
+            imageFront:'GilletteKoreaBack.avif',
             url:'https://gillette.co.kr/ko-kr'
         }
     ],
