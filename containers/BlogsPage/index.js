@@ -2,6 +2,7 @@
 import React from 'react'
 import styles from './blogs-tw-styles'
 import constants from '../../components/constants'
+import Image from 'next/image'
 export default function Blogs() {
     return (
 <div>
@@ -28,7 +29,10 @@ export default function Blogs() {
                         <h4 className={styles.nameStyle}>
                             {`${item.title.substring(0,60)}...`}
                         </h4> 
-                        <img src={item.imageFront} className={styles.workImage}/>
+                        <Image src={item.imageFront} className={styles.workImage} width={250}
+                    height={250}
+                    quality={50}
+                    alt="Picture of the author"/>
                         
                         {/* <div>
                         <img src={item.imageBack} className={styles.workImageSecond}/>

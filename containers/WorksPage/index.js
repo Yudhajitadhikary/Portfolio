@@ -2,6 +2,7 @@
 import React from 'react'
 import styles from './works-tw-styles'
 import constants from '../../components/constants'
+import Image from 'next/image'
 export default function Works() {
     return (
 <div>
@@ -31,10 +32,16 @@ export default function Works() {
                         </div>
                         <div className={styles.flexWrapperImage}>
                             <div>
-                        <img src={item.imageFront} className={styles.workImage}/>
+                        <Image src={item.imageFront} className={styles.workImage}
+                        width={250}
+                        height={250}
+                        quality={50}
+                        alt="Picture of the author"/>
                         </div>
                         <div>
-                        <img src={item.imageBack} className={styles.workImageSecond}/>
+                        <Image quality={50} src={item.imageBack} className={styles.workImageSecond} width={250}
+          height={250}
+          alt="Picture of the author"/>
                         </div>
                         </div>
                         </div>

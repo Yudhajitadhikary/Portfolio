@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Link from 'next/link'
+import Image from 'next/image'
 const MobileNavigation=({open,handleHamburgerClose})=>{
     return(
         <div>{
@@ -16,7 +17,10 @@ const MobileNavigation=({open,handleHamburgerClose})=>{
                 className="humburgerClose"
                 onClick={handleHamburgerClose}
                 > 
-                        <img src="https://img.icons8.com/material-sharp/24/ffffff/railroad-crossing-sign--v2.png"/>
+                        <Image src="https://img.icons8.com/material-sharp/24/ffffff/railroad-crossing-sign--v2.png" width={30}
+                    height={30}
+                    quality={50}
+                    alt="Picture of the author"/>
                             </button>
                 </nav>
         </div>:''}

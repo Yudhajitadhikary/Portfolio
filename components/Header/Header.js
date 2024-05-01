@@ -2,6 +2,7 @@ import React,{Component} from 'react'
 import DesktopNavigation from './DesktopNavigation'
 import dynamic from 'next/dynamic'
 import style from './header-tw.styles'
+import Image from 'next/image'
 const MobileNavigation=dynamic(()=>import('./MobileNavigation'))
 class Header extends Component{
     constructor(props){
@@ -36,7 +37,13 @@ class Header extends Component{
             <React.Fragment>
                 <div className={style.content}>
                     {isMobile && isMobile !==null?!open?<button className={style.humburger} onClick={this.handleHamburgerClick}>
-                    <img src="https://img.icons8.com/ios/50/ffffff/menu--v1.png"/>
+                    <Image src="https://img.icons8.com/ios/50/ffffff/menu--v1.png"
+                    width={100}
+                    height={100}
+                    quality={50}
+                    alt="Picture of the author"
+                    priority={true}
+                    />
                         </button>:'':''}
                     {
                         !isMobile && isMobile !==null && (<DesktopNavigation/>)

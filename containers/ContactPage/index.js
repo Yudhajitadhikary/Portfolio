@@ -4,6 +4,7 @@ import styles from "./contact-tw-styles";
 import { Formik, Field, Form, ErrorMessage } from 'formik';
 import * as Yup from 'yup';
 import emailjs from "@emailjs/browser";
+import Image from 'next/image'
 export default function Contact() {
 
   return (
@@ -68,37 +69,63 @@ export default function Contact() {
           href="https://yudhajitadhikary.medium.com/"
           className={styles.socialWrapper} rel="noreferrer"
         >
-          <img src="https://img.icons8.com/ios/50/ffffff/medium-logo.png" />
+          <Image src="https://img.icons8.com/ios/50/ffffff/medium-logo.png" width={250}
+                    height={250}
+                    quality={50}
+                    alt="Picture of the author" />
         </a>
         <a target="_blank"
           href="https://www.facebook.com/yudhajit.adhikary"
           className={styles.socialWrapper} rel="noreferrer"
         >
-          <img src="https://img.icons8.com/ios-filled/50/ffffff/facebook-new.png" />
+          <Image  src="https://img.icons8.com/ios-filled/50/ffffff/facebook-new.png"  width={250}
+                    height={250}
+                    quality={50}
+                    alt="Picture of the author"/>
         </a>
         <a target="_blank"
           href="https://twitter.com/yudha19971"
           className={styles.socialWrapper} rel="noreferrer"
         >
-          <img src="https://img.icons8.com/ios-filled/50/ffffff/twitter.png" />
+          <Image src="https://img.icons8.com/ios-filled/50/ffffff/twitter.png"
+          width={500}
+          height={500}
+          quality={50}
+          alt="Picture of the author"
+          />
         </a>
         <a target="_blank"
           href="https://www.linkedin.com/in/yudhajit-adhikary-500898159"
           className={styles.socialWrapper} rel="noreferrer"
         >
-          <img src="https://img.icons8.com/ios-filled/50/ffffff/linkedin.png" />
+          <Image src="https://img.icons8.com/ios-filled/50/ffffff/linkedin.png"
+          width={500}
+          height={500}
+          quality={50}
+          alt="Picture of the author"
+          />
         </a>
         <a target="_blank"
           href="https://github.com/Yudhajitadhikary"
           className={styles.socialWrapper} rel="noreferrer"
         >
-          <img src="https://img.icons8.com/ios-filled/50/ffffff/github.png" />
+          <Image src="https://img.icons8.com/ios-filled/50/ffffff/github.png"
+          width={500}
+          height={500}
+          quality={50}
+          alt="Picture of the author"
+          />
         </a>
         <a target="_blank"
           href="https://www.instagram.com/yudha_clicks"
           className={styles.socialWrapper} rel="noreferrer"
         >
-          <img src="https://img.icons8.com/ios-filled/50/ffffff/instagram-new--v1.png"/>
+          <Image  src="https://img.icons8.com/ios-filled/50/ffffff/instagram-new--v1.png"
+          width={500}
+          height={500}
+          quality={50}
+          alt="Picture of the author"
+          />
         </a>
       </div>
       <div>
