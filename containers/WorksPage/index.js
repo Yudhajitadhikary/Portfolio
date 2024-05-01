@@ -35,11 +35,13 @@ export default function Works() {
                         <Image src={item.imageFront} className={styles.workImage}
                         width={250}
                         height={250}
-                        quality={50}
+                        // quality={50}
                         alt="Picture of the author"/>
                         </div>
                         <div>
-                        <Image quality={50} src={item.imageBack} className={styles.workImageSecond} width={250}
+                        <Image 
+                        // quality={50} 
+                        src={item.imageBack} className={styles.workImageSecond} width={250}
           height={250}
           alt="Picture of the author"/>
                         </div>

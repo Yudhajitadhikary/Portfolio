@@ -19,7 +19,7 @@ const MobileNavigation=({open,handleHamburgerClose})=>{
                 > 
                         <Image src="https://img.icons8.com/material-sharp/24/ffffff/railroad-crossing-sign--v2.png" width={30}
                     height={30}
-                    quality={50}
+                    // quality={50}
                     alt="Picture of the author"/>
                             </button>
                 </nav>

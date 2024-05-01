@@ -40,7 +40,7 @@ class Header extends Component{
                     <Image src="https://img.icons8.com/ios/50/ffffff/menu--v1.png"
                     width={100}
                     height={100}
-                    quality={50}
+                    // quality={50}
                     alt="Picture of the author"
                     priority={true}
                     />
