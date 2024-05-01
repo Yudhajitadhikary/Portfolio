@@ -71,7 +71,7 @@ export default function Contact() {
         >
           <Image src="https://img.icons8.com/ios/50/ffffff/medium-logo.png" width={250}
                     height={250}
-                    // quality={50}
+                    quality={50}
                     alt="Picture of the author" />
         </a>
         <a target="_blank"
@@ -80,7 +80,7 @@ export default function Contact() {
         >
           <Image  src="https://img.icons8.com/ios-filled/50/ffffff/facebook-new.png"  width={250}
                     height={250}
-                    // quality={50}
+                    quality={50}
                     alt="Picture of the author"/>
         </a>
         <a target="_blank"
@@ -90,7 +90,7 @@ export default function Contact() {
           <Image src="https://img.icons8.com/ios-filled/50/ffffff/twitter.png"
           width={500}
           height={500}
-          // quality={50}
+          quality={50}
           alt="Picture of the author"
           />
         </a>
@@ -101,7 +101,7 @@ export default function Contact() {
           <Image src="https://img.icons8.com/ios-filled/50/ffffff/linkedin.png"
           width={500}
           height={500}
-          // quality={50}
+          quality={50}
           alt="Picture of the author"
           />
         </a>
@@ -112,7 +112,7 @@ export default function Contact() {
           <Image src="https://img.icons8.com/ios-filled/50/ffffff/github.png"
           width={500}
           height={500}
-          // quality={50}
+          quality={50}
           alt="Picture of the author"
           />
         </a>
@@ -123,7 +123,7 @@ export default function Contact() {
           <Image  src="https://img.icons8.com/ios-filled/50/ffffff/instagram-new--v1.png"
           width={500}
           height={500}
-          // quality={50}
+          quality={50}
           alt="Picture of the author"
           />
         </a>
