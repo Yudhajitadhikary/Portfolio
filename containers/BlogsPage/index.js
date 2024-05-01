@@ -31,7 +31,7 @@ export default function Blogs() {
                         </h4> 
                         <Image src={item.imageFront} className={styles.workImage} width={250}
                     height={250}
-                    // quality={50}
+                    quality={50}
                     alt="Picture of the author"/>
                         
                         {/* <div>

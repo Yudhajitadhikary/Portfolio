@@ -88,8 +88,8 @@ export default function Contact() {
           className={styles.socialWrapper} rel="noreferrer"
         >
           <Image src="https://img.icons8.com/ios-filled/50/ffffff/twitter.png"
-          width={500}
-          height={500}
+          width={250}
+          height={250}
           quality={50}
           alt="Picture of the author"
           />
@@ -99,8 +99,8 @@ export default function Contact() {
           className={styles.socialWrapper} rel="noreferrer"
         >
           <Image src="https://img.icons8.com/ios-filled/50/ffffff/linkedin.png"
-          width={500}
-          height={500}
+          width={250}
+          height={250}
           quality={50}
           alt="Picture of the author"
           />
@@ -110,8 +110,8 @@ export default function Contact() {
           className={styles.socialWrapper} rel="noreferrer"
         >
           <Image src="https://img.icons8.com/ios-filled/50/ffffff/github.png"
-          width={500}
-          height={500}
+          width={250}
+          height={250}
           quality={50}
           alt="Picture of the author"
           />
@@ -121,8 +121,8 @@ export default function Contact() {
           className={styles.socialWrapper} rel="noreferrer"
         >
           <Image  src="https://img.icons8.com/ios-filled/50/ffffff/instagram-new--v1.png"
-          width={500}
-          height={500}
+          width={250}
+          height={250}
           quality={50}
           alt="Picture of the author"
           />
