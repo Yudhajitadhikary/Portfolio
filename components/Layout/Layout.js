@@ -1,8 +1,7 @@
 import React from 'react'
+import dynamic from 'next/dynamic'
 import PropTypes from 'prop-types'
-import Header from '../Header/Header'
-// import dynamic from 'next/dynamic'
-// const Footer=dynamics(()=>import('../Footer/Footer'))
+const Header=dynamic(()=>import('../Header/Header'))
 
 const Layout=({children})=>{
     return(

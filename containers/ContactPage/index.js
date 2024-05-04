@@ -5,6 +5,7 @@ import { Formik, Field, Form, ErrorMessage } from 'formik';
 import * as Yup from 'yup';
 import emailjs from "@emailjs/browser";
 import Image from 'next/image'
+import Link from 'next/link'
 export default function Contact() {
 
   return (
@@ -65,8 +66,8 @@ export default function Contact() {
                 )}
             />
       <div className={styles.socialParent}>
+        <Link href="https://yudhajitadhikary.medium.com/">
         <a target="_blank"
-          href="https://yudhajitadhikary.medium.com/"
           className={styles.socialWrapper} rel="noreferrer"
         >
           <Image src="https://img.icons8.com/ios/50/ffffff/medium-logo.png" width={250}
@@ -74,8 +75,9 @@ export default function Contact() {
                     quality={50}
                     alt="Picture of the author" />
         </a>
+        </Link>
+        <Link href="https://www.facebook.com/yudhajit.adhikary">
         <a target="_blank"
-          href="https://www.facebook.com/yudhajit.adhikary"
           className={styles.socialWrapper} rel="noreferrer"
         >
           <Image  src="https://img.icons8.com/ios-filled/50/ffffff/facebook-new.png"  width={250}
@@ -83,8 +85,9 @@ export default function Contact() {
                     quality={50}
                     alt="Picture of the author"/>
         </a>
+        </Link>
+        <Link href="https://twitter.com/yudha19971">
         <a target="_blank"
-          href="https://twitter.com/yudha19971"
           className={styles.socialWrapper} rel="noreferrer"
         >
           <Image src="https://img.icons8.com/ios-filled/50/ffffff/twitter.png"
@@ -94,8 +97,9 @@ export default function Contact() {
           alt="Picture of the author"
           />
         </a>
+        </Link>
+        <Link  href="https://www.linkedin.com/in/yudhajit-adhikary-500898159">
         <a target="_blank"
-          href="https://www.linkedin.com/in/yudhajit-adhikary-500898159"
           className={styles.socialWrapper} rel="noreferrer"
         >
           <Image src="https://img.icons8.com/ios-filled/50/ffffff/linkedin.png"
@@ -105,8 +109,9 @@ export default function Contact() {
           alt="Picture of the author"
           />
         </a>
+        </Link>
+        <Link href="https://github.com/Yudhajitadhikary">
         <a target="_blank"
-          href="https://github.com/Yudhajitadhikary"
           className={styles.socialWrapper} rel="noreferrer"
         >
           <Image src="https://img.icons8.com/ios-filled/50/ffffff/github.png"
@@ -115,9 +120,9 @@ export default function Contact() {
           quality={50}
           alt="Picture of the author"
           />
-        </a>
+        </a></Link>
+        <Link href="https://www.instagram.com/yudha_clicks">
         <a target="_blank"
-          href="https://www.instagram.com/yudha_clicks"
           className={styles.socialWrapper} rel="noreferrer"
         >
           <Image  src="https://img.icons8.com/ios-filled/50/ffffff/instagram-new--v1.png"
@@ -126,7 +131,7 @@ export default function Contact() {
           quality={50}
           alt="Picture of the author"
           />
-        </a>
+        </a></Link>
       </div>
       <div>
         <div className={styles.nameStyle}>Contact: +91 6371272905</div>

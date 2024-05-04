@@ -7,7 +7,8 @@ module.exports={
             TechStack:'ReactJS, SCSS',
             imageBack:'JumeirahFront.avif',
             imageFront:'JumeirahBack.avif',
-            url:'https://www.jumeirah.com/en'
+            url:'https://www.jumeirah.com/en',
+            preload:true
         },
         {
             title:'Downy US',
@@ -15,7 +16,8 @@ module.exports={
             TechStack:'NextJS, Tailwindcss',
             imageBack: 'DownyFront.avif',
             imageFront:'DownyBack.avif',
-            url:'https://downy.com/en-us'
+            url:'https://downy.com/en-us',
+            preload:true
         },
         {
             title:'Olay Canada',
@@ -23,7 +25,8 @@ module.exports={
             TechStack:'NextJS, Tailwindcss',
             imageBack: 'OlayBack.avif',
             imageFront:'OlayFront.avif',
-            url:'https://www.olay.ca/en-ca'
+            url:'https://www.olay.ca/en-ca',
+            preload:true
         },
         {
             title:'Gillette Portugal',
@@ -31,7 +34,8 @@ module.exports={
             TechStack:'NextJS, Tailwindcss',
             imageBack: 'GillettePortugalFront.avif',
             imageFront:'GillettePortugalBack.avif',
-            url:'https://gillette.pt/pt-pt'
+            url:'https://gillette.pt/pt-pt',
+            preload:true
         },
         {
             title:'Gillette Taiwan',
@@ -39,7 +43,8 @@ module.exports={
             TechStack:'NextJS, Tailwindcss',
             imageBack: 'GilletteTaiwanFront.avif',
             imageFront:'GilletteTaiwanBack.avif',
-            url:'https://www.gillette.com.tw/zh-tw'
+            url:'https://www.gillette.com.tw/zh-tw',
+            preload:true
         },
         {
             title:'Gillette Singapore',
@@ -62,27 +67,32 @@ module.exports={
         {
             title:'Implementation of React Hooks, Context API and Reducer All-together',
             imageFront:'1st-Blog.avif',
-            url:'https://yudhajitadhikary.medium.com/implementation-of-react-hooks-context-api-reducer-all-together-bf2df11070b7'
+            url:'https://yudhajitadhikary.medium.com/implementation-of-react-hooks-context-api-reducer-all-together-bf2df11070b7',
+            preload:true
         },
         {
             title:'Creation of React Forms with Formik & Yup together',
             imageFront:'2nd-Blog.avif',
-            url:'https://yudhajitadhikary.medium.com/formik-yup-together-makes-creation-of-react-forms-easier-6c9cf91dab50'
+            url:'https://yudhajitadhikary.medium.com/formik-yup-together-makes-creation-of-react-forms-easier-6c9cf91dab50',
+            preload:true
         },
         {
             title:'Creating a Chat Application using Express and Websockets…',
             imageFront:'3rd-Blog.gif',
-            url:'https://yudhajitadhikary.medium.com/creating-chat-application-using-express-and-websockets-ed567339c4d5'
+            url:'https://yudhajitadhikary.medium.com/creating-chat-application-using-express-and-websockets-ed567339c4d5',
+            preload:true
         },
         {
             title:'Creating ChatBot using Dialogflow and React Redux…',
             imageFront:'4th-Blog.avif',
-            url:'https://yudhajitadhikary.medium.com/creating-chatbot-using-dialogflow-and-react-redux-a5bea19da71d'
+            url:'https://yudhajitadhikary.medium.com/creating-chatbot-using-dialogflow-and-react-redux-a5bea19da71d',
+            preload:true
         },
         {
             title:'Isomorphic Implementation of React',
             imageFront:'5th-Gif.gif',
-            url:'https://yudhajitadhikary.medium.com/isomorphic-implementation-of-react-fa6e129c246f'
+            url:'https://yudhajitadhikary.medium.com/isomorphic-implementation-of-react-fa6e129c246f',
+            preload:true
         },
         {
             title:'Third Party Login using OAuth & Passport.JS.',

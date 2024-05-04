@@ -3,6 +3,7 @@ import React from 'react'
 import styles from './works-tw-styles'
 import constants from '../../components/constants'
 import Image from 'next/image'
+import Link from 'next/link'
 export default function Works() {
     return (
 <div>
@@ -17,7 +18,8 @@ export default function Works() {
             <div key={index} className='parentCardWrapper'>
                 <div>
                     <div>
-                        <a className={styles.anchor} href={item.url} target="_blank" rel="noreferrer">
+                        <Link href={item.url} >
+                        <a className={styles.anchor} target="_blank" rel="noreferrer">
                             <div className={styles.flexWrapper}>
                         <div className='cardText'>
                         <h4 className={styles.nameStyle}>
@@ -32,7 +34,7 @@ export default function Works() {
                         </div>
                         <div className={styles.flexWrapperImage}>
                             <div>
-                        <Image src={item.imageFront} className={styles.workImage}
+                        <Image priority={item.preload} src={item.imageFront} className={styles.workImage}
                         width={250}
                         height={250}
                         // quality={50}
@@ -41,6 +43,7 @@ export default function Works() {
                         <div>
                         <Image 
                         // quality={50} 
+                        priority={item.preload}
                         src={item.imageBack} className={styles.workImageSecond} width={250}
           height={250}
           alt="Picture of the author"/>
@@ -48,7 +51,7 @@ export default function Works() {
                         </div>
                         </div>
                         
-                        </a></div>
+                        </a></Link></div>
                         </div>
                         </div>))
 }

@@ -1,6 +1,6 @@
 import React,{Component} from 'react'
-import DesktopNavigation from './DesktopNavigation'
 import dynamic from 'next/dynamic'
+const DesktopNavigation = dynamic(() => import('./DesktopNavigation'))
 import style from './header-tw.styles'
 import Image from 'next/image'
 const MobileNavigation=dynamic(()=>import('./MobileNavigation'))
