@@ -69,16 +69,16 @@ export default function Contact() {
         <Link href="https://yudhajitadhikary.medium.com/" target="_blank"
           className={styles.socialWrapper} rel="noreferrer"
         >
-          <Image src="https://img.icons8.com/ios/50/ffffff/medium-logo.png" width={250}
-                    height={250}
+          <Image src="https://img.icons8.com/ios/50/ffffff/medium-logo.png" width={50}
+                    height={50}
                     quality={50}
                     alt="Picture of the author" />
         </Link>
         <Link href="https://www.facebook.com/yudhajit.adhikary" target="_blank"
           className={styles.socialWrapper} rel="noreferrer"
         >
-          <Image  src="https://img.icons8.com/ios-filled/50/ffffff/facebook-new.png"  width={250}
-                    height={250}
+          <Image  src="https://img.icons8.com/ios-filled/50/ffffff/facebook-new.png"  width={50}
+                    height={50}
                     quality={50}
                     alt="Picture of the author"/>
         </Link>
@@ -86,8 +86,8 @@ export default function Contact() {
           className={styles.socialWrapper} rel="noreferrer"
         >
           <Image src="https://img.icons8.com/ios-filled/50/ffffff/twitter.png"
-          width={250}
-          height={250}
+          width={50}
+          height={50}
           quality={50}
           alt="Picture of the author"
           />
@@ -96,8 +96,8 @@ export default function Contact() {
           className={styles.socialWrapper} rel="noreferrer"
         >
           <Image src="https://img.icons8.com/ios-filled/50/ffffff/linkedin.png"
-          width={250}
-          height={250}
+          width={50}
+          height={50}
           quality={50}
           alt="Picture of the author"
           />
@@ -106,8 +106,8 @@ export default function Contact() {
           className={styles.socialWrapper} rel="noreferrer"
         >
           <Image src="https://img.icons8.com/ios-filled/50/ffffff/github.png"
-          width={250}
-          height={250}
+          width={50}
+          height={50}
           quality={50}
           alt="Picture of the author"
           />
@@ -116,8 +116,8 @@ export default function Contact() {
           className={styles.socialWrapper} rel="noreferrer"
         >
           <Image  src="https://img.icons8.com/ios-filled/50/ffffff/instagram-new--v1.png"
-          width={250}
-          height={250}
+          width={50}
+          height={50}
           quality={50}
           alt="Picture of the author"
           />

@@ -282,6 +282,9 @@
     padding: 100px 18% 385px 60px;
     }
     }
+    .flex{
+        display: flex;
+    }
 
 
 
