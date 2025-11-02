@@ -1,0 +1,289 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.humburger {
+    width:23px
+}
+.humburgerClose {
+    padding-top: 12px !important;
+}
+.parentCardWrapper {
+    margin-bottom: 100px;
+}
+.anchor{
+    color: #f0860c;
+    text-decoration: none;
+}
+.anchorLink:hover{
+    color: #f0860c;
+    text-decoration: none;
+}
+.anchor:hover{
+    color: #f0860c;
+    text-decoration: none;
+}
+
+.navbar-mobile{
+    left:0;
+    transform: translateX(0px) translateY(0px);
+    height: 812px;
+    transition: transform 400ms ease 0s;
+    right: auto;
+    z-index: 1;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    background-color: #080808;
+}
+.header-mobile {
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+    border-radius: 12px;
+    background-color: rgba(20,20,20,.9);
+}
+.navbar-desktop {
+    position: fixed;
+    display: block;
+    top:0px;
+    width: 100%;
+    clear: none;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    background-color: rgba(7,7,7,.93);
+}
+.nav-menu-2 {
+    margin-right: 50px;
+    margin-left: 50px;
+}
+.form-control {
+    color: #f0860c;
+
+}
+.nav-link-desktop {
+    left: 0;
+    top: 0;
+    right: 0;
+    padding: 15px 40px 15px 0;
+    float: left;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: .02em;
+}
+.socialwrapper {
+    width:280px;
+}
+.font-normals {
+    font-size: 25px;
+}
+.high {
+    font-size: 63px;
+}
+.high-text {
+    line-height: 1.0625;
+    font-weight: 600;
+    letter-spacing: -.01em;
+    text-transform: none;
+}
+.submitbutton {
+    background-color: rgba(27,27,27,.91);
+    min-height: 48px;
+    min-width: 118px;
+    margin-top: 10px;
+    border-radius: 12px;
+    color: #f0860c;
+    font-size: 18px;
+    font-weight: 500;
+}
+.cardWrapper{
+    opacity: 1;
+    transition: 'opacity 1000ms cubic-bezier(0.47, 0, 0.745, 0.715) 0s';
+    background-image: linear-gradient(
+            0deg,#000,#172229),linear-gradient(
+            180deg,#000,#000);
+            overflow: hidden;
+            height: auto;
+            padding: 35px;
+            background-image: linear-gradient(180deg,rgba(0,0,0,.8),rgba(0,0,0,.8));
+}
+@media screen and (max-width: 1680px){
+    .socialIcon {
+        margin-right:20px;
+    }
+    .blogTitle {
+        min-width:700px;
+        /* padding-right: 176px; */
+        /* min-width:700px; */
+    }
+    .form-group {
+        width: auto !important;
+        padding-bottom: 19px;
+    }
+    .formikLabel {
+        display:inline-block;
+        min-width:81px;
+    }
+    #body {
+    background-image: url('../../public/Yudha.avif');
+    background-position: 50% 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #fff;
+    }
+    .cardTextBlogs{
+        margin-top:81px;
+    }
+    .font-normal {
+        font-size: 24px;
+    }
+    .less {
+        font-size: 17px;
+    }
+    .secondcard {
+        margin-left: 37px;
+    }
+    .cardText {
+        /* max-width:240px; */
+        min-width:700px;
+    }
+    .workImage {
+        max-width:250px;
+        max-height:250px;
+    }
+    .content-wrapper {
+        margin-top: 0;
+    padding: 100px 45% 385px 90px;
+    }
+    .content-wrappers {
+        margin-top: 0;
+    padding: 100px 45% 485px 60px;
+    }
+    }
+@media screen and (max-width: 768px){
+    .blogTitle {
+        min-width: 340px;
+
+    }
+    .socialIcon {
+        margin-right:5px;
+    }
+
+    .form-group {
+        width: auto !important;
+    }
+    .formikLabel {
+        display:inline-block;
+        min-width:81px;
+    }
+    #body {
+        background-position: 68% 50%;
+        background-size: cover;
+    }
+    .font-normal {
+        font-size: 24px;
+    }
+    .less {
+        font-size: 17px;
+    }
+    .secondcard {
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+    .nowrap {
+        flex-wrap: nowrap;
+    }
+    .cardTextBlogs{
+        min-width: 345px;
+        margin-top:0px;
+    }
+    .cardText {
+        max-width:240px;
+        padding-bottom: 10px;
+    }
+    .workImage {
+        max-width:250px;
+        max-height:250px;
+    }
+    .content-wrapper {
+        margin-top: 0;
+    padding: 100px 45% 385px 60px;
+    }
+    .content-wrappers {
+        margin-top: 0;
+    padding: 100px 18% 485px 60px;
+    }
+}
+@media screen and (max-width: 375px){
+    .socialIcon {
+        margin-right:5px;
+    }
+    .blogTitle {
+        min-width: 340px;
+    }
+    .contact {
+        width: 267px;
+    }
+    .secondcard {
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+    .font-normal {
+        font-size: 24px;
+    }
+    .less {
+        font-size: 17px;
+    }
+    .formikLabel {
+        display:inline-block;
+        min-width:81px;
+    }
+    .form-group {
+        width: 300px !important;
+    }
+    #body {
+        background-position: 66% 50%;
+        background-size: cover;
+    }
+    .secondcard {
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+    .nowrap {
+        flex-wrap: wrap;
+    }
+    .cardTextBlogs{
+        min-width: 345px;
+        margin-top:0px;
+    }
+    .cardText {
+        max-width:240px;
+        padding-bottom:10px;
+    }
+    .workImage {
+        max-width:250px;
+        max-height:250px;
+    }
+    
+    .content-wrapper {
+    margin-top: 0;
+    padding: 100px 90px 137px 60px;
+    }
+    .content-wrappers {
+        margin-top: 0;
+    padding: 100px 18% 385px 60px;
+    }
+    }
+
+
+
+
+
