@@ -1,6 +1,6 @@
 module.exports = {
   images:{
-      unoptimized: false,
+      unoptimized: true,
       domains:['img.icons8.com']
   },
   output:'export',
